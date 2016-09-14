@@ -11,11 +11,11 @@ title                    : "Unsupervised Learning Methods for Financial Decision
 title_separator          : "|"
 name                     : "Berk Orbay"
 description              : "Source code and further documentation."
-url                      : "https://uslfin.github.io"
+url                      : "https://uslfin.github.io" # "http://127.0.0.1:4000"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "uslfin/uslfin"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : true # true, false (default)
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -167,6 +167,12 @@ sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
+#Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
 #Front Matter Defaults
 defaults:
   # _posts
@@ -186,6 +192,7 @@ defaults:
       type: pages
     values:
       layout: single
+      author_profile: false
   # _docs
   - scope:
       path: ""
@@ -206,7 +213,7 @@ defaults:
       layout: single
 
 # Outputting
-permalink: /:title/
+permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: "Turkey" # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -218,6 +225,7 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-redirect-from
   - jemoji
 
 # mimic GitHub Pages with --safe
@@ -239,6 +247,12 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
+# post_archive:
+#   type: liquid
+#   path: /posts/
+# page_archive:
+#   type: liquid
+#   path: /pages/
 category_archive:
   type: liquid
   path: /categories/

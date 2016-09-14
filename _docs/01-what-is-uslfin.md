@@ -1,14 +1,23 @@
 ---
-title: "Quick-Start Guide"
-permalink: /docs/quick-start-guide/
+title: "What is uslfin?"
+permalink: /docs/what-is-uslfin/
 excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
-modified: 2016-04-13T15:54:02-04:00
+modified: 2016-09-14T18:00:00-01:00
 redirect_from:
-  - /theme-setup/
+  - /
 ---
 
 {% include base_path %}
 
+`uslfin` is the abbrevation of Unsupervised Learning in Financial Decision Making working paper and the name of the R package creating for the analyses used in the paper. **Basically it helps to measure how successful different data mining algorithms can capture option pricing errors.**
+
+Main purpose of the R package is to provide reproducibility and ultimately credibility to the academic work described in the paper. This way, readers can use the same data sets used in the paper, reproduce the experiments and extend the work easily if they are interested in new ideas.
+
+Usability is one of the prominent properties of the `uslfin` package. Next sections describe the installation and use of the package step-by-step. All you need is an R client (version 3.3.1 or later). After 5 minutes of setup, you will be able to use it yourself!
+
+Next step will walk you through the installation of the required components.
+
+<!--
 Minimal Mistakes has been developed to be 100% compatible with hosting a site on [GitHub Pages](https://pages.github.com/). To get up and running with a new GitHub repository quickly, follow these steps or jump ahead to the [full installation guide]({{ base_path }}/docs/installation/).
 
 ## Fork the Theme
@@ -45,3 +54,4 @@ Committing a change to `_config.yml` (or any file in your repository) will force
 ---
 
 Congratulations! You've successfully forked the theme and are up an running with GitHub Pages. Now you're ready to add content and customize the site further.
+-->
