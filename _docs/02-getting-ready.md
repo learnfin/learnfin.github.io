@@ -1,21 +1,23 @@
 ---
-title: "What is uslfin?"
-permalink: /docs/what-is-uslfin/
-excerpt: "Short description of R package uslfin."
-modified: 2016-09-14T18:00:00-01:00
-redirect_from:
-  - /
+title: "Getting Ready"
+permalink: /docs/getting-ready/
+excerpt: "Installing and loading uslfin R package."
+modified: 2016-09-14T18:01:00-01:00
 ---
 
 {% include base_path %}
 
-`uslfin` is the abbrevation of Unsupervised Learning in Financial Decision Making working paper and the name of the R package creating for the analyses used in the paper. **Basically it helps to measure how successful different data mining algorithms can capture option pricing errors.**
+You need the R client version 3.3.1 or higher. **You can download R from [here](https://cran.r-project.org/).** Click one of the "Download R for..." links suitable for your operating system (Mac, Windows or Linux) and install.
+{: .notice--info}
 
-Main purpose of the R package is to provide reproducibility and ultimately credibility to the academic work described in the paper. This way, readers can use the same data sets used in the paper, reproduce the experiments and extend the work easily if they are interested in new ideas.
+Once you install R, rest of the installation is very easy. Just copy paste the code below to your R console. More experienced R users can examine the code and use what is strictly necessary.
 
-Usability is one of the prominent properties of the `uslfin` package. Next sections describe the installation and use of the package step-by-step. All you need is an R client (version 3.3.1 or later). After 5 minutes of setup, you will be able to use it yourself!
+{% gist 6df145c579806799122c492465c2ffde getting_ready_uslfin.r %}
 
-Next step will walk you through the installation of the required components.
+That's it. Were you expecting more steps to install?
+
+Even though it is unlikely, there is always a possibility that `uslfin` package will not install or one of the commands will go awkward. If that is the case, please make sure your R version is 3.3.1 or later. Second, restart R and even your machine. Finally, please notify me. (TODO: Put contact information.)
+{: .notice--danger}
 
 <!--
 Minimal Mistakes has been developed to be 100% compatible with hosting a site on [GitHub Pages](https://pages.github.com/). To get up and running with a new GitHub repository quickly, follow these steps or jump ahead to the [full installation guide]({{ base_path }}/docs/installation/).
