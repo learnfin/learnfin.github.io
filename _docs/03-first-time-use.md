@@ -1,23 +1,38 @@
 ---
-title: "Getting Ready"
-permalink: /docs/getting-ready/
-excerpt: "Installing and loading uslfin R package."
-modified: 2016-09-14T18:01:00-01:00
+title: "First Time Use"
+permalink: /docs/first-time-use/
+excerpt: "Doing the first analysis with the uslfin package."
+modified: 2016-09-14T18:02:00-01:00
 ---
 
 {% include base_path %}
 
-You need the R client version 3.3.1 or higher. **You can download R from [here](https://cran.r-project.org/).** Click one of the "Download R for..." links suitable for your operating system (Mac, Windows or Linux) and install.
+Running experiments with the package is very easy. There is even a top-level function that does a series of experiments. It only needs required inputs and parametrizations. Rest of it is quite automatic and convenient. In this example, we will cluster pricing errors using different K-Means parametrizations.
+
+# Step 1 - Save input parameters Excel File
+
+Just download the [input_parameters.xlsx]({{ base_path }}/files/input_parameters.xlsx) file from this github repository to a folder of your choice. But, remember your choice because we are going to use it.
+
+# Step 2 - Run the code
+
+Run the code given in the gist changing the `setwd` value.
+
+{% gist 6df145c579806799122c492465c2ffde first_time_use_uslfin.r %}
+
+# Step 3 - See the results
+
+Your output should be something similar to the figure below.
+
+<figure>
+  <img src="{{ base_path }}/images/uslfin-first-use-example.png" alt="First Use Results">
+</figure>
+
+# What is next?
+
+Congratulations, you have made this far! Now, you can meddle with the function, try different data sets and data mining methods. See other sections of this tutorial for further information.
+
+You can see different parameter values of the `run_full_experiment` function by writing `?run_full_experiment` to the R console. The help file will appear with the detailed information about the function and its parameters.
 {: .notice--info}
-
-Once you install R, rest of the installation is very easy. Just copy paste the code below to your R console. More experienced R users can examine the code and use what is strictly necessary.
-
-<!-- {% gist 6df145c579806799122c492465c2ffde getting_ready_uslfin.r %} -->
-
-That's it. Were you expecting more steps to install?
-
-Even though it is unlikely, there is always a possibility that `uslfin` package will not install or one of the commands will go awkward. If that is the case, please make sure your R version is 3.3.1 or later. Second, restart R and even your machine. Finally, please notify me. (TODO: Put contact information.)
-{: .notice--danger}
 
 <!--
 Minimal Mistakes has been developed to be 100% compatible with hosting a site on [GitHub Pages](https://pages.github.com/). To get up and running with a new GitHub repository quickly, follow these steps or jump ahead to the [full installation guide]({{ base_path }}/docs/installation/).
