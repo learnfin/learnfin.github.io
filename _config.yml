@@ -94,7 +94,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/berkorbay"
+  linkedin         : "berkorbay"
   pinterest        :
   soundcloud       :
   stackoverflow    : "3608936/berkorbay" # (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
@@ -186,6 +186,18 @@ defaults:
       type: pages
     values:
       layout: single
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
   # _foo
   - scope:
       path: ""
