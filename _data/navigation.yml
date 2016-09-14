@@ -2,6 +2,11 @@
 main:
 
 docs:
+  - title: Research
+    children:
+      - title: "About the Research"
+        url: /docs/about-the-research/
+
   - title: Introduction
     children:
       - title: "What is uslfin?"
@@ -11,11 +16,11 @@ docs:
       - title: "First Time Use"
         url: /docs/first-time-use/
 
-  - title: Basics
+  - title: Background Information
     children:
-      - title: "What is an Option?"
+      - title: "What is an Option? (coming)"
         url: /docs/what-is-an-option/
-      - title: "What is Pricing Error?"
+      - title: "What is Pricing Error? (coming)"
         url: /docs/what-is-pricing-error/
-      - title: "What is Prediction Error?"
+      - title: "What is Prediction Error? (coming)"
         url: /docs/what-is-prediction-error/
