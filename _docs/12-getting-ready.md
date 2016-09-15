@@ -14,7 +14,7 @@ Once you install R, rest of the installation is very easy. Just copy paste the c
 
 {% gist 6df145c579806799122c492465c2ffde getting_ready_uslfin.r %}
 
-That's it. Were you expecting more steps to install?
+That's it. Were you expecting more steps? Sorry to disappoint :)
 
 Even though it is unlikely, there is always a possibility that `uslfin` package will not install or one of the commands will go awkward. If that is the case, please make sure your R version is 3.3.1 or later. Second, restart R and even your machine. Finally, please notify me. (TODO: Put contact information.)
 {: .notice--danger}
