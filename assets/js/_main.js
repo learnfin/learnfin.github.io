@@ -97,4 +97,9 @@ $(document).ready(function(){
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
+  // prevent line-breaks in links and make open in new tab
+  $('article a').not('[rel="footnote"], [rev="footnote"]').html(function(i, str) {
+      return str.replace(/ /g,'&nbsp;');
+  }).attr('target','_blank');
+
 });

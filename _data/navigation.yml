@@ -6,6 +6,8 @@ docs:
     children:
       - title: "About the Research"
         url: /docs/about-the-research/
+      - title: "Acknowledgements"
+        url: /docs/acknowledgements/
 
   - title: Introduction
     children:
