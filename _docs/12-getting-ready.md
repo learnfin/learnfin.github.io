@@ -12,7 +12,7 @@ You need the R client version 3.3.1 or higher. **You can download R from [here](
 
 Once you install R, rest of the installation is very easy. Just copy paste the code below to your R console. More experienced R users can examine the code and use what is strictly necessary.
 
-<!-- {% gist 6df145c579806799122c492465c2ffde getting_ready_uslfin.r %} -->
+{% gist 6df145c579806799122c492465c2ffde getting_ready_uslfin.r %}
 
 That's it. Were you expecting more steps to install?
 
