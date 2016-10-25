@@ -7,14 +7,14 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Unsupervised Learning Methods for Financial Decision Making"
+title                    : "Statistical Learning Methods for Financial Decision Making"
 title_separator          : "|"
 name                     : "Berk Orbay"
 description              : "Source code and further documentation."
-url                      : "https://uslfin.github.io"
+url                      : "https://learnfin.github.io"
 # url                      : "http://127.0.0.1:4000" # "https://uslfin.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "uslfin/uslfin.github.io"
+repository               : "learnfin/learnfin.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
