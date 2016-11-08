@@ -11,8 +11,8 @@ docs:
 
   - title: Introduction
     children:
-      - title: "What is uslfin?"
-        url: /docs/what-is-uslfin/
+      - title: "What is learnfin?"
+        url: /docs/what-is-learnfin/
       - title: "Getting Ready"
         url: /docs/getting-ready/
       - title: "First Time Use"
